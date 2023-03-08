@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <style>
+      
+        .content {
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 1rem;
+          margin: auto;
+          flex-wrap: nowrap;
+        }
+
+      /* sing-up-illustration */
+      .sing-up-illustration {
+        position: relative;
+        width: 345.69px;
+        height: 162.56px;
+        left: 111.28px;
+        top: -17.17px;
+      }
+
+      /* Board-logo */
+        #board-logo {
+          position: relative;
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 4rem;
+          padding: 1rem 0px;
+          flex-wrap: wrap;
+        }
+
+        #text-login {
+          text-align: center;
+        }
+
+      #form {
+        width: 100%;
+      }
+
+      /* login-stayconect */
+      #login-stayconect {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+        padding: 0px;
+        flex-wrap: nowrap;
+      }
+
+      #stay-conect {
+       padding-top: 1rem;
+      }
+
+      /* social login */
+
+      .social-login {
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 0.5rem;
+        padding: 1.5rem 0px 0px;
+        flex-wrap: nowrap;
+      }
+
+      #social-login-icons {
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        gap: 2rem;
+        padding: 0px;
+        flex-wrap: nowrap;
+      }
+
+    </style>
+
+    <title>Login - OpenStreetMap</title>
+  </head>
+  <body>
+    <main>
+        <div class="content">
+          <div>
+            <img src="assets/img/sign-up-illustration.png" alt="">
+          </div>
+          <div class="box-normal">
+
+            <div id="Board-logo">
+
+              <div class="logo">
+                <div>
+                  <img src="assets/img/openstreetmap-logo.png" id="logo-img" alt="">
+                </div>
+                <h4 id="logo-text">OpenStreetMap</h4>
+              </div>
+
+              <p class="bodymedium" id="text-login">Login</p>  
+
+            </div>
+            
+            <form id="form">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address or username:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                <span class="small"><a href="forgot-password.html" id="forget-password">Forget the password?</a></span>
+              </div>
+
+              <div id="login-stayconect">
+                <div class="mb-3 form-check" id="stay-conect">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label" for="exampleCheck1">Stay Conect</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </div>
+            </form>
+
+            <div class="social-login">
+
+              <p id="text-login">Or login with:</p>
+
+              <div id="social-login-icons">
+                <img src="assets/icons/openid.png" alt="">
+                <img src="assets/icons/google.png" alt="">
+                <img src="assets/icons/facebook.png" alt="">
+                <img src="assets/icons/microsoft.png" alt="">
+                <img src="assets/icons/github.png" alt="">
+                <img src="assets/icons/wikipedia-w.png" alt="">
+              </div>
+            </div>
+
+            <span class="small"><a href="http://" target="_blank" rel="noopener noreferrer">Don't have a acount? creat here</a></span>
+
+          </div>
+
+          <p> <a href="index.html">prev</a> <a href="forgot-password.html">next</a> </p>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -16,3 +16,6 @@ Another point for organizations is the addition of events directly on the platfo
 ### Welcome popup
 A way to explain to first-timers what OSM is and how they can get in touch with their local community
 
+[Penpot Prototype](https://design.penpot.app/#/view/55d48600-1ee8-11ec-9b4d-b2702b3a67d1?page-id=928b0390-489e-11ed-ba98-8351b9a013d4&section=interactions&index=0&share-id=10153e6d-0229-80f5-8002-2fcc0c2a5215)
+
+[Foundation Design Systen](https://github.com/Playzinho/Foundation)

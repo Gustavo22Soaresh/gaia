@@ -13,22 +13,6 @@
     --font-family-primary: 'Source Sans Pro', sans-serif !important;
 } 
 
-@media screen (max-width: 600px) {
-
-    .box-big {
-        width: 18rem;
-    }
-
-}
-
-@media screen (min-width: 600px) {
-
-    .box-big {
-        width: 40rem;
-    }
-
-}
-
 body {
     background-color: var(--redice);
 }
@@ -192,7 +176,7 @@ body {
 
   .box-big {
     position: relative;
-    width: 40rem;
+    max-width: 40rem;
     height: auto;
     border-radius: 0.5rem;
     background: white;
@@ -226,3 +210,16 @@ body {
     #logo-text {
         color: var(--darkblue);
     }
+
+@media screen and (max-width: 600px) {
+  .box-big{
+    width: 96vw;
+    padding: 2rem 1rem;
+  }
+
+  .box-normal {
+    width: 96vw;
+    padding: 1rem;
+    max-width: 30rem;
+  }
+}
